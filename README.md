@@ -1,6 +1,6 @@
 %let UID= 111222333;
-%let libpath= C:\Users\msajid2\Desktop\SAS Ass3;
-%let pdfpath= C:\Users\msajid2\Desktop\SAS Ass3;
+%let libpath= C:\Users\Desktop\SAS Ass3;
+%let pdfpath= C:\Users\Desktop\SAS Ass3;
 
 libname HW3 "&libpath." ;
 ods pdf file="&pdfpath.\HW3(How long to catch upto schedule)-&UID..pdf" ;
@@ -319,4 +319,3 @@ Inspecting the co-efficents of the Poisson regression model depicts the followin
 */
 
 ods pdf close ;
-ANIS-SAJID
